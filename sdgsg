@@ -58,7 +58,7 @@ UIPadding.PaddingRight = UDim.new(0, 25)
 Notification.Name = "Notification"
 Notification.Parent = Notifyt
 Notification.BackgroundColor3 = Color3.fromRGB(25,25,25)
-Notification.BackgroundTransparency = 0
+Notification.BackgroundTransparency = 1.000
 Notification.BorderSizePixel = 0
 Notification.Position = UDim2.new(1, 0, 0, 0)
 Notification.Size = UDim2.new(0, 250, 0, 0)
@@ -105,29 +105,6 @@ Exit.Position = UDim2.new(1, 0, 0, 0)
 Exit.Size = UDim2.new(1, 0, 1, 0)
 
 UIAspectRatioConstraint.Parent = Exit
-
-Icon.Name = "Icon"
-Icon.Parent = Exit
-Icon.AnchorPoint = Vector2.new(0.5, 0.5)
-Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Icon.BackgroundTransparency = 1.000
-Icon.BorderSizePixel = 0
-Icon.Position = UDim2.new(0.5, 0, 0.5, 0)
-Icon.Size = UDim2.new(0.5, 0, 0.5, 0)
-Icon.Image = "http://www.roblox.com/asset/?id=6415685859"
-Icon.ScaleType = Enum.ScaleType.Fit
-
-Button.Name = "Button"
-Button.Parent = Exit
-Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Button.BackgroundTransparency = 1.000
-Button.BorderSizePixel = 0
-Button.Size = UDim2.new(1, 0, 1, 0)
-Button.ZIndex = 2
-Button.Font = Enum.Font.SourceSans
-Button.Text = ""
-Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-Button.TextSize = 14.000
 
 Title.Name = "Title"
 Title.Parent = Top
